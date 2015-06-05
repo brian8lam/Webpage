@@ -31,48 +31,107 @@ nav a{
 	background-size: 20px;
 	padding-bottom: 500px;
 	margin:0;
-} 
-
-.chome h1{
+}
+.navbar{
+	background-color:#000000;
+	opacity: 0.8;
+}
+.navbar .container .navbar-brand{
+	color: #EEEEEE;
+}
+.navbar-header .navbar-toggle .icon-bar {
+  background-color:  #EEEEEE;
+}
+.collapse .nav .act{
+ 	color: #EEEEEE;
+ }
+.collapse .nav .act:hover{
+	background: #FBDC94;
+	color: black;
+}
+.home .background-image {
+    height: 650px;
+   
+    background-image: url('background1.jpg');
+    -webkit-filter:grayscale(65%);
+    width: 100%;
+    position: absolute;
+    top:0;
+    z-index: -100;
+}
+.home .jumbotron{
+	background: transparent;
+	//background-color: black;
+	//opacity: 0.5;
+	height: 650px;
+	margin: 0;
+}
+.home .jumbotron .chome{
+	background-color: black;
+	background-size: 20px;
+	background: transparent;
+	//padding-bottom: 500px;
+	padding-top: 50px;
+	margin:0;
+}
+.home .jumbotron .chome h1{
+	color: white;
 	text-align: center;
 }
-.chome{
-	//background-color: #D3D3D3;
+.home .jumbotron .chome p{
+	text-align: center;
+	text-transform: capitalize;
+	color: #8B8B8B;
+}
+.about .testbackground {
+	height: 800px;
+    background-image: url('test.jpg');
+    background-repeat: no-repeat;
+    //background-position: right;
+    width: 100%;
+    position: absolute;
+    top:700px;
+    z-index: 0;
+}
+.about{
+	background-color: black;
 	background-size: 20px;
-	//background: transparent;
+	padding-bottom: 360px;
+	padding-top: 75px;
+	margin:0;
+}
+.paragraph{
+	background-color: transparent;
+	color: #8B8B8B;
+}
+.paragraph h1{
+	color: #8B8B8B;
+	padding-top: 100px;
+	font-size: 7em;
+	margin:0;
+}
+.project{
+	background-color: black;
+	background-size: 20px;
 	padding-bottom: 500px;
 	padding-top: 50px;
 	margin:0;
 }
-.jumbotron
-{
-	background-image:url('Style/test.jpg');
-	height: 700px;
-	background: transparent;
-}
-.about{
-	background-color: white;
-	background-size: 20px;
-	padding-bottom: 500px;
-	padding-top: 50px;
+.project h1{
+	color: #8B8B8B;
+	padding-top: 100px;
+	font-size: 7em;
 	margin:0;
 }
 .contacts{
-	background-color: #D3D3D3;
+	background-color: black;
 	background-size: 20px;
 	padding-bottom: 500px;
 	padding-top: 50px;
 	margin:0;
 }
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #888;
-  }
-button:hover{
-	background: blue;
-}
 footer {
-	background-color: black;
-	color: white;
+	color: black;
 	margin:0;
 	padding: 0px;
 }
