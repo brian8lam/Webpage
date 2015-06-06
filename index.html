@@ -1,11 +1,12 @@
-<html>
+<!DOCTYPE html>
+<html lang='en'>
 <head>
-	<link rel="stylesheet" href="Style/main.css">
+	
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">-->
-
-
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="Style/main.css">
 	
 	<title>Brian Lam</title>
 </head>
@@ -20,7 +21,7 @@
 					<a href="#contacts">Contacts</a>
 			</nav>navbar-inverse
 		</div>-->
-		<div class="navbar  navbar-fixed-top">
+		<div class="navbar navbar-fixed-top">
   			<div class="container">
     			<div class="navbar-header">
       				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse" >
@@ -44,40 +45,114 @@
    		</div>
 	</header>
 
+	<!-- need a better picture or think of something else to put here -->
 	<a name="home"></a>
-
 	<div class="home">
 		<div class="background-image"></div>
 		<div class = "jumbotron">
-			<div class="chome">
+			<div class="chome container-fluid">
 				<h1> Welcome! </h1>
 				<p> This is my website. </p>
 			</div>
 		</div>
 	</div>
 
-		<a name="about"></a>
+		<!-- fix the sizing error need to scale picture and also the text is hidden when too small because of overflow -->
+	<a name="about"></a>
+	<div class = "about row">
+				 <!--<div class= "col-md-5 col-md-5"></div>-->
+				
+		<div class= "aboutparagraph col-md-4 col-md-offset-2">
+			<h1> About </h1>
+			<br>				
+			<p>			
+			Belightful unreserved impossible few estimating men avourable see entreaties. She propriety immediate wa improving. He or entrance humoured likewise moderate. Much nor game son say feel. Fat make met can must form into gate. Me we offending prevailed discovery. 
+			<br><br>
+			Of be talent me answer do relied. Mistress in on o laughing throwing endeavor occasion welcomed. Gravity sir brandon calling can. No years do widow house delay stand. Prospect six kindness use steepest new ask. High gone kind calm call as ever is. Introduced melancholy estimating motionless on up as do. Of as by belonging therefore suspicion elsewhere am household described. Domestic suitable bachelor for landlord fat 
+			<br><br>
+			Do commanded an shameless we disposing do. Indulgence ten remarkably nor are impression out. Power is lived means oh every in we quiet. Remainder provision an in intention. Saw supported too joy promotion engrossed propriety. Me till like it sure no sons.
+			 </p>
+		</div>
+		<div class= "picture col-md-1">
+			<img src="Style/test.jpg">
+		</div>
+	</div>
 
-		<div class = "about row">
-			<div class= "testbackground col-md-2 col-md-offset-6"> </div>
-			<div class= "paragraph col-md-6 col-md-offset-1">
-				<h1> About </h1>
-				<br>
-				<p>			
-				Belightful unreserved impossible few estimating men favourable see entreaties. She propriety immediate was improving. He or entrance humoured likewise moderate. Much nor game son say feel. Fat make met can must form into gate. Me we offending prevailed discovery. 
-				<br><br>
-				Of be talent me answer do relied. Mistress in on so 	laughing throwing endeavor occasion welcomed. Gravity sir brandon calling can. No years do widow house delay stand. Prospect six kindness use steepest new ask. High gone kind calm call as ever is. Introduced melancholy estimating motionless on up as do. Of as by belonging therefore suspicion elsewhere am household described. Domestic suitable bachelor for landlord fat. 
-				<br><br>
-				Do commanded an shameless we disposing do. Indulgence ten remarkably nor are impression out. Power is lived means oh every in we quiet. Remainder provision an in intention. Saw supported too joy promotion engrossed propriety. Me till like it sure no sons.
-				 </p>
+		<!-- fix resizing for carousel-->	
+	<a name ="project"> </a>
+	<div class="project">
+		<div class ="paragraph">
+			<div class="heading row">
+				<div class="hp col-md-4 col-md-offset-2">
+					<h1> Project </h1>
+				</div>
+			</div>
+
+				<!-- carousel stuff here -->
+				<!--<div id="myCarousel" class="carousel slide" data-ride ="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="myCarousel" data-slide-to="1"></li>
+						<li data-target="myCarousel" data-slide-to="2"></li>
+						<li data-target="myCarousel" data-slide-to="3"></li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class = "item active">
+							<img src="Style/slider.jpg" alt="test1">
+						</div>
+						<div class = "item">
+							<img src="Style/slider.jpg" alt="test1">
+						</div>
+						<div class = "item">
+							<img src="Style/300x200.png" alt="test1">
+						</div>
+						<div class = "item">
+							<img src="Style/slider.jpg" alt="test1">
+						</div>
+					</div>
+					<a class ="left carousel-control"href="#myCarousel" role="button" data-slide="prev">
+      					<span class="glyphicon glyphicon-chevron-left" aria-hidden="false"></span> 
+      				</a>
+    				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    					<span class="glyphicon glyphicon-chevron-right" aria-hidden="false"></span> 
+    				</a>
+				</div>-->
+
+				<!-- grid layout with images -->
+			<div class="projects row">
+				<div class= "image col-md-3 col-md-offset-2">
+					<img src="Style/300x200.png" alt="test1">
+				</div>
+				<div class= "image col-md-3">
+					<img src="Style/300x200.png" alt="test1">
+				</div>
+				<div class= "image col-md-3 ">
+					<img src="Style/300x200.png" alt="test1">
+				</div>
+				<div class= "image col-md-3 col-md-offset-2">
+					<img src="Style/300x200.png" alt="test1">
+				</div>
+				<div class= "image col-md-3">
+					<img src="Style/300x200.png" alt="test1">
+				</div>
+				<div class= "image col-md-3">
+					<img src="Style/300x200.png" alt="test1">
+				</div>
+				<div class= "image col-md-3 col-md-offset-2">
+					<img src="Style/300x200.png" alt="test1">
+				</div>
+				<div class= "image col-md-3">
+					<img src="Style/300x200.png" alt="test1">
+				</div>
+				<div class= "image col-md-3">
+					<img src="Style/300x200.png" alt="test1">
+				</div>
+
+				</div>
+
 			</div>
 		</div>
-		<a name ="project"> </a>
-		<div class="project">
-			<div class ="paragraph">
-				<h1> Project </h1>
-			</div>
-		</div>
+
 		<a name= "contact"></a>
 		<div class = "contacts">
 			<p>contacts</p>
