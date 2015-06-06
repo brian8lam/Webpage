@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang='en'>
 <head>
-	
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">-->
@@ -34,11 +33,12 @@
       			</div>
    				<div class="collapse navbar-collapse" id="example-navbar-collapse">
 
-     			<ul class="nav navbar-nav">
-      			  	<li><a class="act" href="#home">Home</a></li>
+     			<ul class="nav navbar-nav navbar-right">
+      			  	<!--<li><a class="act" href="#home">Home</a></li>-->
       			 	<li><a class="act" href="#about">About</a></li>
       			 	<li><a class="act" href="#project">Project</a></li>
        			 	<li><a class="act" href="#contact">Contact</a></li>
+       			 	<li><a class="act" href="#contact">Resume</a></li>
      			 </ul>
    			 	</div><!--/.nav-collapse -->
    			</div>
@@ -50,9 +50,14 @@
 	<div class="home">
 		<div class="background-image"></div>
 		<div class = "jumbotron">
-			<div class="chome container-fluid">
-				<h1> Welcome! </h1>
-				<p> This is my website. </p>
+			<div class="chome row">
+				<div class= "bname col-md-3 col-md-offset-4 form-group">
+					<p class= "b">B</p>
+					<p class= "rian">rian</p>
+				</div>
+				<div class= "name">
+					<p class= "lam">Lam</p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -84,7 +89,7 @@
 		<div class ="paragraph">
 			<div class="heading row">
 				<div class="hp col-md-4 col-md-offset-2">
-					<h1> Project </h1>
+					<h1> Projects </h1>
 				</div>
 			</div>
 
@@ -138,7 +143,7 @@
 				<div class= "image col-md-3">
 					<img src="Style/300x200.png" alt="test1">
 				</div>
-				<div class= "image col-md-3 col-md-offset-2">
+				<!--<div class= "image col-md-3 col-md-offset-2">
 					<img src="Style/300x200.png" alt="test1">
 				</div>
 				<div class= "image col-md-3">
@@ -146,21 +151,69 @@
 				</div>
 				<div class= "image col-md-3">
 					<img src="Style/300x200.png" alt="test1">
-				</div>
-
-				</div>
-
+				</div>-->
 			</div>
+
+			<div id="myCarousel" class="carousel slide" data-ride ="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="myCarousel" data-slide-to="1"></li>
+						<li data-target="myCarousel" data-slide-to="2"></li>
+						<li data-target="myCarousel" data-slide-to="3"></li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class = "item active">
+							<img src="Style/slider.jpg" alt="test1">
+						</div>
+						<div class = "item">
+							<img src="Style/slider.jpg" alt="test1">
+						</div>
+						<div class = "item">
+							<img src="Style/300x200.png" alt="test1">
+						</div>
+						<div class = "item">
+							<img src="Style/slider.jpg" alt="test1">
+						</div>
+					</div>
+					<a class ="left carousel-control"href="#myCarousel" role="button" data-slide="prev">
+      					<span class="glyphicon glyphicon-chevron-left" aria-hidden="false"></span> 
+      				</a>
+    				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    					<span class="glyphicon glyphicon-chevron-right" aria-hidden="false"></span> 
+    				</a>
+				</div>
+
 		</div>
+	</div>
 
 		<a name= "contact"></a>
-		<div class = "contacts">
-			<p>contacts</p>
+		<div class = "contacts row">
+			<div class = "contactlist col-md-4">
+				<h1>Contacts</h1>
+				<form role="contactform form">
+					<div class="form-group">
+					 	<!--<label for = "email">Email:</label>-->
+						<input type="text" class="form-control" id="Name" placeholder ="Name">
+					</div>
+					<div class="form-group">
+					 	<!--<label for = "email">Email:</label>-->
+						<input type="email" class="form-control" id="email" placeholder ="Email">
+					</div>
+					<div class="form-group">
+					 	<!--<label for = "email">Email:</label>-->
+						<textarea class="form-control" placeholder="Message" rows="6"></textarea>
+					</div>
+					<div class="button">
+					    <button type="submit" class="btn btn-default">Submit</button>
+					</div>
+
+				</form>
+			</div>
 		</div>
 	</div>
 
 	<footer>
-		<p> Hello World (C) Brian Lam</p>
+		<p> &#169 By Brian Lam</p>
 	</footer>
 
 	<!-- Latest compiled and minified JavaScript -->

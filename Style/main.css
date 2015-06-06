@@ -2,6 +2,7 @@ html, body{
 	overflow-x: hidden !important;
 	width: auto !important;
 	color: black;
+	//background-color: #000000;
 }
 header {
 	background: black;
@@ -28,24 +29,28 @@ nav a{
 	text-decoration: none;
 }
 .navbar{
-	background-color:#000000;
-	opacity: 0.8;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color:#000101;
+	opacity: 0.95;
 }
 .navbar .container .navbar-brand{
 	color: #EEEEEE;
 }
 .navbar-header .navbar-toggle .icon-bar {
-  background-color:  #EEEEEE;
+ 	background-color:  #EEEEEE;
 }
 .collapse .nav .act{
- 	color: #EEEEEE;
+ 	color: #8B8B8B;
+ 	font-size: 1.2em;
+ 	font-weight: bold;
  }
 .collapse .nav .act:hover{
 	background: #FBDC94;
 	color: black;
 }
 .home .background-image {
-    height: 650px;
+    height: 700px;
     background-image: url('background1.jpg');
     -webkit-filter:grayscale(65%);
     width: 100%;
@@ -61,18 +66,40 @@ nav a{
 	margin: 0;
 }
 .home .jumbotron .chome{
-	background-color: black;
+	background-color: #000000;
 	background-size: 20px;
 	background: transparent;
 	//padding-bottom: 500px;
 	padding-top: 50px;
 	margin:0;
 }
-.home .jumbotron .chome h1{
+.home .jumbotron .chome .bname{
+}
+.home .jumbotron .chome .b{
+	color: orange;
+	text-align: center;
+	margin: 0;
+	//padding-top: 200px;
+	//padding-left: 675px;
+	font-size: 10em;
+	display: inline-block;
+}
+.home .jumbotron .chome .rian{
 	color: white;
 	text-align: center;
+	//padding-top: 200px;
+	//padding-right: 50px;
+	font-size: 10em;
+	display: inline-block;
 }
-.home .jumbotron .chome p{
+
+.home .jumbotron .chome .lam{
+	color: orange;
+	text-align: center;
+	font-size: 10em;
+	display: inline-block;
+}
+//.home .jumbotron .chome p{
 	text-align: center;
 	text-transform: capitalize;
 	color: #8B8B8B;
@@ -121,15 +148,15 @@ nav a{
 	margin:0;
 }
 .project .carousel{
-	padding-top: 200px;
+	padding-top: 20px;
 	max-width: 100%;
 	position: relative;
 }
 .project .carousel-inner .item img,
 .project .carousel-inner .item a img{
-	height: 600px;
-	max-height: 600px;
-	width: 50%;
+	height: 250px;
+	max-height: 250px;
+	width: 20%;
 	margin: auto;
 }
 .project .carousel-control{
@@ -139,17 +166,26 @@ nav a{
 	padding-bottom: 20px;
 	padding-top: 20px;
 }
-
 .contacts{
-	background-color: black;
+	background-color: #000000;
 	background-size: 20px;
-	padding-bottom: 500px;
-	padding-top: 50px;
+	height: 500px;
 	margin:0;
 }
-
+.contacts h1{
+	color: #8B8B8B;
+	padding-bottom: 15px;
+	margin:0;
+}
+.contacts{
+	padding-left: 800px;
+}
+.contacts .button{
+	padding-left: 270px;
+}
 footer {
-	color: black;
+	background-color: #000000;
+	color: #8B8B8B;
 	margin:0;
 	padding: 0px;
 }
