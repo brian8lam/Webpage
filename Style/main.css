@@ -1,7 +1,8 @@
 html, body{
-	overflow-x: hidden !important;
+	//overflow-x: hidden !important;
 	width: auto !important;
 	color: black;
+	//position: absolute;
 	//background-color: #000000;
 }
 header {
@@ -83,6 +84,7 @@ nav a{
 	//padding-left: 675px;
 	font-size: 10em;
 	display: inline-block;
+	position: relative;
 }
 .home .jumbotron .chome .rian{
 	color: white;
@@ -91,6 +93,7 @@ nav a{
 	//padding-right: 50px;
 	font-size: 10em;
 	display: inline-block;
+	position: relative;
 }
 
 .home .jumbotron .chome .lam{
@@ -98,6 +101,7 @@ nav a{
 	text-align: center;
 	font-size: 10em;
 	display: inline-block;
+	position: relative;
 }
 //.home .jumbotron .chome p{
 	text-align: center;
@@ -111,13 +115,13 @@ nav a{
 }
 .about .picture {
 	height: auto;
-	position: relative;
 	margin: 1;
    	//background-image: url('test.jpg');
     //background-repeat: no-repeat;
     //background-position: right;
-    //width: 100%;
-    //position: absolute;
+    max-width: 100%;
+    z-index: 1;
+    //position: relative;
     //top:700px;
 }
 .about .aboutparagraph{
@@ -140,12 +144,14 @@ nav a{
 	//padding-bottom: 500px;
 	//padding-top: 50px;
 	margin:0;
+	position: relative;
 }
 .project h1{
 	color: #8B8B8B;
 	padding-top: 50px;
 	font-size: 7em;
 	margin:0;
+	position: relative;
 }
 .project .carousel{
 	padding-top: 20px;
@@ -158,30 +164,38 @@ nav a{
 	max-height: 250px;
 	width: 20%;
 	margin: auto;
+	position: relative;
 }
 .project .carousel-control{
 	background-image: none;
+	//position: relative;
 }
 .project .image{
 	padding-bottom: 20px;
 	padding-top: 20px;
+	position: relative;
+
 }
 .contacts{
 	background-color: #000000;
 	background-size: 20px;
 	height: 500px;
 	margin:0;
+	position: relative;
 }
 .contacts h1{
 	color: #8B8B8B;
 	padding-bottom: 15px;
 	margin:0;
+	position: relative;
 }
 .contacts{
 	padding-left: 800px;
+	position: relative;
 }
 .contacts .button{
 	padding-left: 270px;
+	position: relative;
 }
 footer {
 	background-color: #000000;
